@@ -1,3 +1,0 @@
-A. fps:    30
-B. height: 1080
-C. width:  1920

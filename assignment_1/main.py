@@ -26,7 +26,7 @@ frame_height = int(cam.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = int(cam.get(cv2.CAP_PROP_FPS))
 
 # Save camera properties in a text file
-with open("camera_outputs.txt", "w") as file:
+with open("solutions/camera_outputs.txt", "w") as file:
     file.write(f"A. fps:    {fps}\n")
     file.write(f"B. height: {frame_height}\n")
     file.write(f"C. width:  {frame_width}\n")
